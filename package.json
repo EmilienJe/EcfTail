@@ -1,0 +1,22 @@
+{
+  "name": "ecftail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss src/tailwind.css -o public/tailwind.css",
+    "prod": "NODE_ENV=production postcss src/tailwind.css -o public/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^9.0.1"
+  }
+}

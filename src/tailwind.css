@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.titrelogo {
+
+    @apply mt-1 text-3xl;
+    font-family: 'Neilvard Three';
+}
+.logoheader {
+    
+    @apply w-20 h-20;
+}
+
+.titrenav {
+    @apply text-xl mr-10 border-b-4;
+    font-family: 'Neilvard Three';
+    color: #7C7C7C;
+}
+
+.categorie {
+    @apply flex flex-col;
+}
+@screen sm {
+    .categorie {
+        @apply mt-10;
+    }
+}
+@screen md {
+    .categorie {
+        @apply mt-10;
+    }
+}
+@screen lg {
+    .categorie {
+        @apply mt-0;
+    }
+}
+
+.categorie li {
+    @apply text-xs mt-3 mr-10;
+    font-family: 'Droid Sans Mono Dotted for Powerline';
+    color: #7C7C7C;
+}
+
+.titremiddle {
+    @apply text-xl mr-10 mb-3;
+    font-family: 'Neilvard Three';
+}
+.titrefoot {
+    @apply text-xl mr-10 mb-3;
+    font-family: 'Neilvard Three';
+    color: #7C7C7C;
+}
+
+.imagegallery{
+    @apply  p-4 m-2 border;
+}
+
+
+
+@screen md {
+    .imagegallery{
+        @apply  w-1/2;
+    }
+}
+
+@screen xl {
+    .imagegallery{
+        @apply  w-1/4;
+    }
+}
+.borderb {
+    @apply border-b mt-3;
+}
+
+em {
+    text-decoration: underline #EA7927;
+}
